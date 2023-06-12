@@ -1,7 +1,7 @@
 package main
 
 import (
-	"assignment3/service"
+	"assignment-3/service"
 	"fmt"
 	"net/http"
 )

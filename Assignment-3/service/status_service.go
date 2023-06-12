@@ -1,7 +1,7 @@
 package service
 
 import (
-	"assignment3/entity"
+	"assignment-3/entity"
 	"encoding/json"
 	"io/ioutil"
 	"log"
@@ -63,7 +63,7 @@ func ReloadWeb(w http.ResponseWriter, r *http.Request) {
 		"wind":        wind,
 	}
 
-	template, err := template.ParseFiles("./template/index.html")
+	template, err := template.ParseFiles("./index.html")
 	if err != nil {
 		log.Fatal(err.Error())
 	}
